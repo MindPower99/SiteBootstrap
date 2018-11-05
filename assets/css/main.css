@@ -1416,6 +1416,10 @@
 			margin: -0.3125rem 0 -1px -0.3125rem;
 		}
 
+		.col-centered {
+    float: none;
+    margin: 0 auto;
+}
 		.\31 2u\28xsmall\29, .\31 2u\24\28xsmall\29 {
 			width: 100%;
 			clear: none;
