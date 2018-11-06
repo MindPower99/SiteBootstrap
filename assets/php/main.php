@@ -1,5 +1,5 @@
 <?php 
-header('Acess-Control-Allow-Origin: *');
+header('Access-Control-Allow-Origin: *');
 header('Content-Type: aplication-json');
 
 $conn = new mysqli('localhost', 'root', '','desenvolvimento de sistemas');

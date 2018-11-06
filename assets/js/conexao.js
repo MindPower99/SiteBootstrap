@@ -10,7 +10,6 @@
 	onDeviceReady: function() {
 		document.getElementById('btnEnviarMensagem').addEventListener('click', this.EnviarMensagem);
 	}, */
-	
 	 function EnviarMensagem() {
 		var nome = document.getElementById('name').value;
 		var email = document.getElementById('email').value;
@@ -36,7 +35,7 @@
 		else {
 			$.ajax({
 				type: "POST",
-				url: "http://localhost/main.php",
+				url: "http://127.0.0.1/main.php",
 				data: {
 					acao: 'EnviarMensagem',
 					nome: nome,
