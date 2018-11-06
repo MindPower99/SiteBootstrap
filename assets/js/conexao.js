@@ -1,17 +1,21 @@
-var conexao = {
+/*var app = {
 
 	ip: 'http://localhost:8000',
     db: null,
 	
+	initialize: function() {
+        document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+    },
+	
 	onDeviceReady: function() {
 		document.getElementById('btnEnviarMensagem').addEventListener('click', this.EnviarMensagem);
-	}
+	}, */
 	
-	EnviarMensagem: function () {
-		var nome = document.getElementById('email').value;
-		var email = document.getElementById('name').value;
+	 function EnviarMensagem() {
+		var nome = document.getElementById('name').value;
+		var email = document.getElementById('email').value;
 		var assunto = document.getElementById('category').value;
-		var recado = documento.getElementById('message').value;
+		var recado = document.getElementById('message').value;
 		
 		if (nome == "") {
 			alert ("O campo nome deve ser preenchido");
@@ -21,7 +25,7 @@ var conexao = {
 			alert ("O campo nome deve ser preenchido");
 		}
 		
-		else if(vEmail.search('@')<1){
+		else if(email.search('@')<1){
             alert('Insira um Email válido');
         }
 		
@@ -67,5 +71,4 @@ var conexao = {
 		
 		
 	}
-
-	}
+//}
