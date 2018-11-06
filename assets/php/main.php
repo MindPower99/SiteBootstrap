@@ -4,7 +4,7 @@ header('Content-Type: aplication-json');
 
 $conn = new mysqli('localhost', 'root', '','desenvolvimento de sistemas');
 
-$request = $_SERVER['REQUEST_METHOD'] == 'GET' ? $_GET : $_POST;
+$request = $_SERVER['REQUEST_METHOD'] == 'POST' ? $_GET : $_POST;
 
 switch ($request['acao']) {
 	
