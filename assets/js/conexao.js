@@ -1,4 +1,4 @@
-/*var app = {
+var app = {
 
 	ip: 'http://localhost:8000',
     db: null,
@@ -9,8 +9,8 @@
 	
 	onDeviceReady: function() {
 		document.getElementById('btnEnviarMensagem').addEventListener('click', this.EnviarMensagem);
-	}, */
-	 function EnviarMensagem() {
+	}, 
+	 'EnviarMensagem': function() {
 		var nome = document.getElementById('name').value;
 		var email = document.getElementById('email').value;
 		var assunto = document.getElementById('category').value;
@@ -37,7 +37,7 @@
 				type: "POST",
 				url: "http://127.0.0.1/main.php",
 				data: {
-					acao: 'EnviarMensagem',
+					//acao: 'EnviarMensagem',
 					nome: nome,
 					email: email,
 					assunto: assunto,
@@ -70,4 +70,4 @@
 		
 		
 	}
-//}
+}

@@ -6,14 +6,14 @@ $conn = new mysqli('localhost', 'root', '','desenvolvimento de sistemas');
 
 $request = $_SERVER['REQUEST_METHOD'] == 'POST' ? $_GET : $_POST;
 
-switch ($request['acao']) {
+//switch ($request['acao']) {
 	
-	case "EnviarMensagem":
+	//case "EnviarMensagem":
 	
-		$nome = addlashes($_POST['nome']);
-		$email = addlashes($_POST['email']);
-		$assunto = addlashes($_POST['assunto']);
-		$recado = addlashes($_POST['recado']);
+		$nome = $_POST['nome'];
+		$email = $_POST['email'];
+		$assunto = $_POST['assunto'];
+		$recado = $_POST['recado'];
 		
 		$sql = "INSERT INTO duvidas (Nome, Email, Assunto, Recado) VALUES('$nome', '$email', '$assunto', '$recado')";
 		$arr = array();
@@ -39,6 +39,6 @@ switch ($request['acao']) {
 		
 	
 
-}
+//}
 
 ?>
