@@ -2550,6 +2550,11 @@
 
 /* Section/Article */
 
+	#art{
+		text-align:center;
+		
+	}
+
 	section.special, article.special {
 		text-align: center;
 	}
@@ -3105,6 +3110,37 @@
 			background-position: center;
 			position: relative;
 		}
+		
+		
+						.wrapper.style4 { 
+						background-color: #000;
+						color: #bfbfbf;
+						background-image: url(../../images/1modulo.jpg);
+						background-size: cover;
+						background-attachment: fixed;
+						background-position: center;
+						position: relative;}
+						
+						.wrapper.style5 { 
+						background-color: #000;
+						color: #bfbfbf;
+						background-image: url(../../images/2modulo.jpg);
+						background-size: cover;
+						background-attachment: fixed;
+						background-position: center;
+						position: relative;}
+						
+						.wrapper.style6 { 
+						background-color: #000;
+						color: #bfbfbf;
+						background-image: url(../../images/3modulo.jpg);
+						background-size: cover;
+						background-attachment: fixed;
+						background-position: center;
+						position: relative;}
+		
+		
+		
 
 			.wrapper.style3 input, .wrapper.style3 select, .wrapper.style3 textarea {
 				color: #ffffff;
