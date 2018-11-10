@@ -239,11 +239,11 @@
 		height: 0;
 	}
 
-	.row.uniform > * > :first-child {
+	.row > * > :first-child {
 		margin-top: 0;
 	}
 
-	.row.uniform > * > :last-child {
+	.row > * > :last-child {
 		margin-bottom: 0;
 	}
 
@@ -255,11 +255,11 @@
 		margin: 0 0 -1px 0rem;
 	}
 
-	.row.uniform.\30 \25 > * {
+	.row.\30 \25 > * {
 		padding: 0rem 0 0 0rem;
 	}
 
-	.row.uniform.\30 \25 {
+	.row.\30 \25 {
 		margin: 0rem 0 -1px 0rem;
 	}
 
@@ -271,11 +271,11 @@
 		margin: 0 0 -1px -2rem;
 	}
 
-	.row.uniform > * {
+	.row > * {
 		padding: 2rem 0 0 2rem;
 	}
 
-	.row.uniform {
+	.row {
 		margin: -2rem 0 -1px -2rem;
 	}
 
@@ -287,11 +287,11 @@
 		margin: 0 0 -1px -4rem;
 	}
 
-	.row.uniform.\32 00\25 > * {
+	.row\32 00\25 > * {
 		padding: 4rem 0 0 4rem;
 	}
 
-	.row.uniform.\32 00\25 {
+	.row\32 00\25 {
 		margin: -4rem 0 -1px -4rem;
 	}
 
@@ -307,7 +307,7 @@
 		padding: 3rem 0 0 3rem;
 	}
 
-	.row.uniform.\31 50\25 {
+	.row.\31 50\25 {
 		margin: -3rem 0 -1px -3rem;
 	}
 
@@ -319,7 +319,7 @@
 		margin: 0 0 -1px -1rem;
 	}
 
-	.row.uniform.\35 0\25 > * {
+	.row.\35 0\25 > * {
 		padding: 1rem 0 0 1rem;
 	}
 
@@ -335,11 +335,11 @@
 		margin: 0 0 -1px -0.5rem;
 	}
 
-	.row.uniform.\32 5\25 > * {
+	.row.\32 5\25 > * {
 		padding: 0.5rem 0 0 0.5rem;
 	}
 
-	.row.uniform.\32 5\25 {
+	.row.\32 5\25 {
 		margin: -0.5rem 0 -1px -0.5rem;
 	}
 
@@ -2069,7 +2069,21 @@
 /* Form */
 
 	form {
-		margin: 0 0 2rem 0;
+		margin-left: 50px;
+		margin-right: 0px;
+
+	}
+
+	#formlegend {
+		margin-bottom: 10px;
+
+	}
+	#lblcopy {
+		font-size: 10pt;
+	}
+
+	#lblhuman {
+		font-size: 10pt;
 	}
 
 	label {

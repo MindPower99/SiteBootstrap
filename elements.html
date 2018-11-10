@@ -35,20 +35,20 @@
 			</section>
 			<br>
 
-								<h3>Formulário de Contato </h3>
 
 								<form name ="formulario" method="POST" action="assets/php/gravamsg.php">
-									<div class="row uniform">
-										<div class="4u 10u$(xsmall)">
-											<input type="text" name="name" id="name" value="" placeholder="Nome" />
+									<legend id="formlegend"><h3> Formulário de contato </h3></legend>
+									<div align="center" class="row uniform">
+										<div class="4u 10u$(xlarge)">
+											<input type="text" name="name" id="name" value="" placeholder="Nome" required />
 										</div>
-										<div class="4u$ 10u$(xsmall)">
-											<input type="email" name="email" id="email" value="" placeholder="Email" />
+										<div class="4u$ 10u$(xlarge)">
+											<input type="email" name="email" id="email" value="" placeholder="Email" required />
 										</div>
 										<!-- Break -->
-										<div class="8u$">
-											<div class="select-wrapper">
-												<select name="category" id="category">
+										<div class="8u$ 10u$(xlarge)">
+											<div class="select-wrapper" >
+												<select name="category" id="category" required >
 													<option value="">Assunto -</option>
 													<option value="Curso DS">Curso de Desenvolvimento de Sistemas</option>
 													<option value="Etec ZL">ETEC Zona Leste</option>
@@ -62,18 +62,18 @@
 										<!-- Break -->
 										<div class="4u 8u$(small)">
 											<input type="checkbox" id="copy" name="copy">
-											<label for="copy">Gostaria de Receber informações sobre a ETEC, o curso e seus eventos</label>
+											<label for="copy">Receber notícias sobre a ETEC seus eventos</label>
 										</div>
 										<div class="4u$ 8u$(small)">
-											<input type="checkbox" id="human" name="human" checked>
-											<label for="human">Não sou um robô </label>
+											<input type="checkbox" id="human" name="human" required >
+											<label for="human"> Não sou um robô</label>
 										</div>
 										<!-- Break -->
-										<div class="8u$">
-											<textarea name="message" id="message" placeholder="Escreva seu recado" rows="6"  ></textarea>
+										<div class="8u$ 10u$(xlarge)">
+											<textarea name="message" id="message" placeholder="Escreva seu recado" rows="6" required  ></textarea>
 										</div>
 										<!-- Break -->
-										<div class="12u$">
+										<div class="10u$">
 											<ul class="actions">
 												<li><input id="btnEnviarMensagem" type="submit" value="Enviar Mensagem"  /></li>
 												<li><input type="reset" value="Limpar" /></li>
