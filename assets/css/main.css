@@ -49,6 +49,7 @@
 		-webkit-text-size-adjust: none;
 	}
 
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -61,7 +62,7 @@
 
 	.container {
 		margin-left: 50px;
-		margin-right: auto;
+		margin-right: 0;
 	}
 
 	.container.\31 25\25 {
@@ -159,7 +160,7 @@
 		}
 
 		.container {
-			width: 90%;
+			width: 100%;
 		}
 
 	}
@@ -169,7 +170,7 @@
 		.container.\31 25\25 {
 			width: 100%;
 			max-width: 112.5%;
-			min-width: 90%;
+			min-width: 100%;
 		}
 
 		.container.\37 5\25 {
@@ -185,7 +186,7 @@
 		}
 
 		.container {
-			width: 90% !important;
+			width: 100% !important;
 		}
 
 	}
@@ -691,6 +692,7 @@
 
 	.col-small {
 		width: 80%;
+		border: 2px;
 		margin-top: 20px;
 	}
 
@@ -710,6 +712,8 @@
 
 		.row.uniform {
 			margin: -1.5rem 0 -1px -1.5rem;
+			margin-top: 20px;
+			position: relative;
 		}
 
 		.row.\32 00\25 > * {
@@ -1667,6 +1671,10 @@
 		margin: 0 0 2rem 0;
 	}
 
+	p.pduvidas {
+		font-size: 12pt;
+		margin-top: 30px;
+	}
 		p.special {
 			text-transform: uppercase;
 			font-size: .75rem;
