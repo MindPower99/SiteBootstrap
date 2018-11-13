@@ -63,6 +63,8 @@
 	.container {
 		margin-left: 50px;
 		margin-right: 0;
+		position: relative;
+		margin-top: 5%;
 	}
 
 	.container.\31 25\25 {
@@ -694,6 +696,17 @@
 		width: 80%;
 		border: 2px;
 		margin-top: 20px;
+	}
+	
+	.page-header {
+		width: 21%;
+		padding-top: 20px;
+		background-color: grey;
+		height: 9%;
+		position: absolute;
+		font-family: serifs;
+		text-align: center;
+		
 	}
 
 	@media screen and (max-width: 1280px) {
@@ -1674,6 +1687,19 @@
 	p.pduvidas {
 		font-size: 12pt;
 		margin-top: 30px;
+	}
+	
+	h3.tduvidas {
+		font-size: 18pt;
+		font-weight: bold;
+		font-family: sans-serif;
+	}
+	
+	h3.títuloprincipal {
+		font-size: 18pt;
+		font-weight: bolder;
+		margin-bottom: 5px;
+		
 	}
 		p.special {
 			text-transform: uppercase;
