@@ -60,7 +60,7 @@
 /* Containers */
 
 	.container {
-		margin-left: auto;
+		margin-left: 50px;
 		margin-right: auto;
 	}
 
@@ -687,6 +687,11 @@
 			margin-left: 8.33333%;
 		}
 
+	}
+
+	.col-small {
+		width: 80%;
+		margin-top: 20px;
 	}
 
 	@media screen and (max-width: 1280px) {
