@@ -34,9 +34,7 @@
 					</header>
 				</div>
 			</section>
-<div class="page-header"> 
-					<h3 class="tituloprincipal"> Dúvidas Frequentes </h3>
-				</div>
+
 			<div class="container">
 				
 				<div class="row">
@@ -45,24 +43,36 @@
 
 					</div>
 					<div class="col-small">
-						<p class="pduvidas">Acessando o Site <b> <a href="http://eteczonaleste.com.br/2018/" > VestibulinhoEtec </a><b>  </p>
+						<p id="p1" class="pduvidas">Acessando o Site <b> <a href="https://www.vestibulinhoetec.com.br/home/" > VestibulinhoEtec </a></b> e fazendo o cadastro.  </p>
 					</div>
+
+							<script>
+								$(document).ready(function(){
+									$("p1").click(function() {
+											$("p1").hide();
+									});
+
+									*/$("p1").click(function(){
+											$("p1").show();
+									});/*
+								});
+							</script>
 
 						</div>
 
 					<div class="col-small">
 						<h3 class="tduvidas" > Quando é a próxima Feira Tecnológica ? </h3>
-						<p class="pduvidas"> </p>
+						<p class="pduvidas">As feiras Tecnológicas ocorrem 1 vez por ano, geralmente perto do Mês de Outubro. A próxima será só ano que vem.</p>
 					</div>
 
 					<div class="col-small">
 						<h3 class="tduvidas" > Quais são os cursos disponíveis ? </h3>
-						<p class="pduvidas"> </p>
+						<p class="pduvidas"> Os cursos disponíveis na ETEC Zona Leste são Administração, Contabilidade, Desenvolvimento de Sistemas, Logística e Serviços Jurídicos. Também há a possibilidade de fazer Recursos humanos em uma das extensões. Mais informações em <a>https://www.vestibulinhoetec.com.br/home/ </a> </p>
 					</div>
 
 					<div class="col-small">
 						<h3 class="tduvidas" > O que eles ensinam em Desenvolvimento de Sistemas ? </h3>
-						<p class="pduvidas"> </p>
+						<p class="pduvidas"> O curso de Desenvolvimento de Sistemas, como o nome sugere, foca na criação de sites e aplicativos, capacita o aluno a fazer a documentação do sistema, e a desenvolver e implementar o banco de dados nessas aplicações. Nesse curso utiliza-se linguagens de programação como Java, C, JavaScript e PHP, além de HTML e CSS, e comandos SQL. </p>
 					</div>
 
 					<div class="col-small">
@@ -149,6 +159,7 @@
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
