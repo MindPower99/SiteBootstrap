@@ -696,13 +696,34 @@
 		width: 85%;
 		border: 2px;
 		margin-top: 20px;
-		
+		height: 7%;	
+	}
+	.tduvidas {
+		margin-top: auto;
+		padding-top: 0.5%;
+	}
+	.tduvidas:hover {
+		color: white;
 	}
 	.col-small:hover {
-		background-color: #FFB6C1;
+		background-color: #2F4F4F;
+		transition-duration: 1s;
+	}
+	.tduvidas:hover {
+		cursor: pointer;
 	}
 	.col-small .pduvidas {
-		background-color: #FFC0CB;
+		padding: 1%;
+	}
+	a {
+		text-decoration: none;
+	}
+	
+	.pduvidas:hover {
+			background-color:#5F9EA0;
+			cursor: pointer;
+			color: white;
+			text-decoration: none;
 	}
 	
 	
@@ -1695,6 +1716,7 @@
 	p.pduvidas {
 		font-size: 12pt;
 		margin-top: 30px;
+		margin: 1%;
 	}
 	
 	h3.tduvidas {
