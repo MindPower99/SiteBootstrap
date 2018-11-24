@@ -706,7 +706,7 @@
 		color: white;
 	}
 	.col-small:hover {
-		background-color: #2F4F4F;
+		background-color: #D3D3D3;
 		transition-duration: 1s;
 	}
 	.tduvidas:hover {
@@ -720,10 +720,11 @@
 	}
 	
 	.pduvidas:hover {
-			background-color:#5F9EA0;
+			background-color:#DCDCDC;
 			cursor: pointer;
-			color: white;
+			color: black;
 			text-decoration: none;
+			font-weight: bold;
 	}
 	
 	
@@ -1713,16 +1714,19 @@
 		margin: 0 0 2rem 0;
 	}
 
-	p.pduvidas {
+	.pduvidas {
 		font-size: 12pt;
 		margin-top: 30px;
 		margin: 1%;
+		font-weight: bolder;
 	}
 	
 	h3.tduvidas {
 		font-size: 18pt;
 		font-weight: bold;
 		font-family: sans-serif;
+		margin-left: 15px;
+		margin-bottom: 10px;
 	}
 	
 	h3.títuloprincipal {
