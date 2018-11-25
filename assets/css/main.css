@@ -701,6 +701,7 @@
 	.tduvidas {
 		margin-top: auto;
 		padding-top: 0.5%;
+		font-size: 10pt;
 	}
 	.tduvidas:hover {
 		color: white;
@@ -1735,6 +1736,11 @@
 		margin-bottom: 5px;
 		
 	}
+
+	hr {
+		margin-left: -15px;
+		width: 105%;
+	}
 		p.special {
 			text-transform: uppercase;
 			font-size: .75rem;
@@ -2144,8 +2150,9 @@
 
 	}
 
-	#formlegend {
+	h3#formlegend {
 		margin-bottom: 10px;
+		font-weight: bold;
 
 	}
 	#lblcopy {
