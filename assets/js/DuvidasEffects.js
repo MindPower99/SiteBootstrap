@@ -8,6 +8,10 @@ $(document).ready(function(){
 									$("#p3").click(EsconderParagrafo3);
 									$("#t4").click(MostrarParagrafo4);
 									$("#p4").click(EsconderParagrafo4);
+									$("#t4").click(MostrarParagrafo4);
+									$("#p4").click(EsconderParagrafo4);
+									$("#t4").click(MostrarParagrafo4);
+									$("#p4").click(EsconderParagrafo4);
 									});
 
 									function MostrarParagrafo1() {
