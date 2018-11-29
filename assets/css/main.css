@@ -3842,6 +3842,13 @@
 		}
 	}
 
+
+	.logo{
+
+		padding-bottom:10px;
+
+	}
+
 	#header {
 		background: rgba(0, 0, 0, 0.975);
 		color: #a6a6a6;
@@ -3859,12 +3866,12 @@
 		#header > .logo {
 			display: inline-block;
 			height: inherit;
-			left: 1.25em;
+			left: 1em;
 			line-height: inherit;
-			margin: 0;
-			padding: 0;
+			margin: 10;
+			padding: 20;
 			position: absolute;
-			top: 0;
+			top: 5;
 		}
 
 			#header > .logo a {
